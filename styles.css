@@ -32,3 +32,39 @@ a {
     color: white; 
     font-size: 12px;
 }
+
+button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+img {
+    width: 400px;
+    height:400px;
+  }
+
+  .content {
+    height: 500px;
+    display: flex; 
+    justify-content: center;
+    background: hsl(0, 94%, 28%);
+    align-items: center;
+    gap: 40px; 
+  }
+
+  .container {
+    height: 300px;
+    width: 340px;
+    padding: 30px;
+    color: white;
+    padding-top: 80px;
+  }
+
+  .text {
+    margin: 10px 0; 
+  }
+
+
