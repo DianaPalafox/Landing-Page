@@ -40,6 +40,7 @@ button {
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
+    border-color: white;
 }
 
 img {
@@ -47,7 +48,7 @@ img {
     height: 400px;
   }
 
-  .content {
+.content {
     height: 500px;
     display: flex; 
     justify-content: center;
@@ -56,7 +57,7 @@ img {
     gap: 40px; 
   }
 
-  .container {
+.container {
     height: 300px;
     width: 340px;
     padding: 30px;
@@ -64,18 +65,18 @@ img {
     padding-top: 80px;
   }
 
-  .text {
+.text {
     margin: 10px 0; 
   }
 
-  .content-two {
+.content-two {
     height: 500px;
     display: flex; 
     justify-content: center;
     background: hsl(0, 100%, 95%);
   }
  
-  .text-two {
+.text-two {
     font-size: 32px;
     font-weight: bold;
     padding: 40px; 
@@ -85,14 +86,14 @@ img {
   }
    
 
-  .container-two {
+.container-two {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px; 
   }
  
-  .picture {
+.picture {
     border: 1px solid black;
     background: hsl(0, 100%, 95%);
     padding: 100px;
@@ -104,21 +105,50 @@ img {
     padding: 1em;
   }
 
-  .content-three {
+.content-three {
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;  
   }
 
-  .quote {
+.quote {
     padding-bottom: 30px;
     max-width: 600px;
     font-size: 36px;
     font-weight: lighter; 
   }
 
-  .atte {
+.atte {
     text-align: right;
     max-width: 580px;
   }
+
+.content-four {
+    display: flex; 
+    height: 300px;
+    background: hsl(0, 100%, 95%);;
+    justify-content: center;
+    align-items: center;
+  }
+
+.boton {
+    height: 150px;
+    width: 900px;
+    display: flex;
+    background: hsl(0, 94%, 28%);
+    justify-content: center;
+    align-items: center;
+    gap: 250px; 
+    border-radius: 12px;
+
+}
+
+.container-four {
+    color: white; 
+}
+
+.action {
+    font-weight: bold;
+    font-size: larger;
+}
