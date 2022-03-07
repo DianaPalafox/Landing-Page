@@ -152,3 +152,15 @@ img {
     font-weight: bold;
     font-size: larger;
 }
+
+.footer {
+    display: flex; 
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 98%, 19%);
+}
+
+.disclaimer {
+    color: white; 
+}
