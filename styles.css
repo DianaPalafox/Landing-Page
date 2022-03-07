@@ -44,11 +44,11 @@ button {
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 330px;
+    height: 330px;
   }
 
-.content {
+.section-one {
     height: 500px;
     display: flex; 
     justify-content: center;
@@ -57,7 +57,7 @@ img {
     gap: 40px; 
   }
 
-.container {
+.container-one {
     height: 300px;
     width: 340px;
     padding: 30px;
@@ -69,7 +69,7 @@ img {
     margin: 10px 0; 
   }
 
-.content-two {
+.section-two {
     height: 500px;
     display: flex; 
     justify-content: center;
@@ -95,17 +95,17 @@ img {
  
 .picture {
     border: 1px solid black;
-    background: hsl(0, 100%, 95%);
+    background: hsl(0, 71%, 35%);
     padding: 100px;
     border-radius: 8px;
   }
   
-  .info {
+.info {
     max-width: 200px;
     padding: 1em;
   }
 
-.content-three {
+.section-three {
     height: 300px;
     display: flex;
     justify-content: center;
@@ -119,12 +119,12 @@ img {
     font-weight: lighter; 
   }
 
-.atte {
+.author {
     text-align: right;
     max-width: 580px;
   }
 
-.content-four {
+.section-four {
     display: flex; 
     height: 300px;
     background: hsl(0, 100%, 95%);;
@@ -141,7 +141,6 @@ img {
     align-items: center;
     gap: 250px; 
     border-radius: 12px;
-
 }
 
 .container-four {
